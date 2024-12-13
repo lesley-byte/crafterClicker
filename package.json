@@ -1,0 +1,30 @@
+{
+  "name": "crafterclicker",
+  "version": "1.0.0",
+  "description": "A typescript crafting clicker game",
+  "main": "index.js",
+  "scripts": {
+    "start": "lite-server",
+    "build": "npx tsc && cp src/index.html dist/index.html && cp src/styles/style.css dist/styles/style.css && cp src/data/items.json dist/data/items.json",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lesley-byte/crafterClicker.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lesley-byte/crafterClicker/issues"
+  },
+  "homepage": "https://github.com/lesley-byte/crafterClicker#readme",
+  "dependencies": {
+    "undici": "^7.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.2",
+    "lite-server": "^2.6.1",
+    "typescript": "^5.7.2"
+  }
+}

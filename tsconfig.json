@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    /* Language and Environment */
+    "target": "ES2020" /* Use ES2020 for browser compatibility */,
+    "lib": ["ES2020", "DOM"] /* Add DOM to access browser-specific APIs */,
+
+    /* Modules */
+    "module": "ESNext" /* Use ES Modules for browser compatibility */,
+    "moduleResolution": "Node" /* Node-compatible module resolution */,
+
+    /* Paths */
+    "rootDir": "src" /* Root source folder */,
+    "outDir": "dist" /* Output folder for compiled files */,
+
+    /* Type Checking */
+    "strict": true /* Enable strict type checking */,
+    "esModuleInterop": true /* Allow default imports from CommonJS modules */,
+    "skipLibCheck": true /* Skip type checking of `node_modules` */
+  },
+  "include": ["src"]
+}

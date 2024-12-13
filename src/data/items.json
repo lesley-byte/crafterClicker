@@ -1,0 +1,51 @@
+{
+  "items": [
+    {
+      "name": "Stick",
+      "type": "resource",
+      "value": 1,
+      "description": "A basic stick, useful for crafting."
+    },
+    {
+      "name": "Stone",
+      "type": "resource",
+      "value": 2,
+      "description": "A solid stone, good for making tools."
+    },
+    {
+      "name": "Rag",
+      "type": "resource",
+      "value": 3,
+      "description": "A piece of cloth, useful for crafting torches or bags."
+    },
+    {
+      "name": "Metal Bit",
+      "type": "resource",
+      "value": 5,
+      "description": "A small metal piece, valuable for crafting."
+    }
+  ],
+  "recipes": [
+    {
+      "name": "Torch",
+      "requirements": {
+        "Stick": 2,
+        "Rag": 1
+      },
+      "value": 10,
+      "description": "A simple torch to light your way."
+    },
+    {
+      "name": "Bag",
+      "requirements": {
+        "Rag": 5,
+        "Metal Bit": 2
+      },
+      "value": 20,
+      "description": "A sturdy bag to carry more items.",
+      "effect": {
+        "inventoryIncrease": 5
+      }
+    }
+  ]
+}
